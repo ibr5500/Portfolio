@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ibr5500/Portfolio/issues"
   },
-  "homepage": "https://github.com/ibr5500/Portfolio#readme"
+  "homepage": "https://github.com/ibr5500/Portfolio#readme",
+  "devDependencies": {
+    "hint": "^6.1.10"
+  }
 }
