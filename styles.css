@@ -9,10 +9,9 @@
 }
 
 .nav-bar {
-    /* position: absolute; */
     display: flex;
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
     background: #fff;
     height: 48px;
     width: 100%;
