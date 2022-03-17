@@ -7,24 +7,27 @@
 
 body {
   background: #fff;
-  height: 916px;
+  height: auto;
 }
 
 header {
   position: relative;
   padding: 25px 30px;
   margin: 1px 0;
+  color: #6070ff;
 }
 
-main {
-  background-image: url('./assets/background.png');
+#main {
+  background: url('./assets/background.png');
   background-repeat: no-repeat;
   background-color: #fff;
+  background-size: auto;
+  width: 96%;
+  margin: auto;
   display: flex;
   padding: 114px 24px;
   height: 604px;
   align-items: center;
-  background-size: contain;
 }
 
 .text-section {
@@ -32,12 +35,12 @@ main {
   flex-direction: column;
   align-items: flex-start;
   padding: 0;
-  margin: 50px 0 0 0;
   position: absolute;
   width: 920px;
   height: 268px;
-  left: 260px;
+  margin: 50px 0 0 0;
   top: 25%;
+  margin-left: 240px;
 }
 
 h1 {
@@ -49,6 +52,7 @@ h1 {
   flex-grow: 0;
   margin: 12px 0;
   color: #091e42;
+  width: 80%;
 }
 
 p {
@@ -102,7 +106,7 @@ p {
   margin-top: -100px;
   width: 170.17px;
   height: 20px;
-  left: 260px;
+  left: 270px;
   top: 642px;
 }
 
@@ -112,4 +116,80 @@ p {
 
 .list-style {
   list-style-type: none;
+}
+
+i {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 380px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    width: 375px;
+    height: auto;
+  }
+
+  #main {
+    background: url('./assets/mobile.png');
+    background-repeat: no-repeat;
+    background-size: 335px;
+    margin: 0 10px;
+  }
+
+  i {
+    margin-right: 50px;
+    right: 68px;
+    visibility: visible;
+    color: #6070ff;
+  }
+
+  nav {
+    margin: 0;
+    height: 48px;
+  }
+
+  nav > a {
+    margin: auto 0;
+  }
+
+  h1 {
+    width: 300px;
+    margin-left: -240px;
+    height: 150px;
+    left: 24px;
+    top: 114px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  p {
+    width: 260px;
+    margin-left: -240px;
+    padding: 8px;
+    height: 150px;
+    left: 24px;
+    top: 114px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  ul {
+    width: 120px;
+    position: fixed;
+    margin-left: -200px;
+  }
+
+  li {
+    margin: 120px 0 0 0;
+  }
+
+  #nav-items {
+    visibility: hidden;
+  }
 }
