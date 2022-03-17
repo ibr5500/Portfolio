@@ -4,35 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
 </head>
 
 <body>
-    <nav class="nav-bar">
-        <img class="logo" src="./assets/logo.png" alt="My Logo" />
-        <ul class="nav-list">
-            <li class="nav-items"><a href="#">About</a></li>
-            <li class="nav-items"><a href="#">Portfolio</a></li>
-            <li class="nav-items"><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-    <div class="main">
-        <div class="container">
-            <h1>I’m Ibrahim <br/> Glad to see<br/> you!</h1>
+    <header>
+        <nav class="nav-bar">
+            <a class="logo decoration" href="#">My Logo</a>
+            <ul class="nav-items">
+                <li class="list-style"><a class="decoration" href="#">Portfolio</a></li>
+                <li class="list-style"><a class="decoration" href="#">About</a></li>
+                <li class="list-style"><a class="decoration" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="text-section">
+            <h1>I’m Ibrahim <br/> Glad to see you!</h1>
             <p>
                 I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
             </p>
-        </div>
-        <div class="foot container">
-            <p><a href="#">LET’S CONNECT</a></p>
-            <img src="./assets/social-media-icons.png" alt="Social media icons" class="img" />
-        </div>
-    </div>
+            <p class="contact">LET’S CONNECT</p>
+        </section>
+        <ul class="icons list-style">
+            <li><img src="./assets/twitter.svg" /></li>
+            <li><img src="./assets/linkedin.svg" /></li>
+            <li><img src="./assets/medium.svg" /></li>
+            <li><img src="./assets/github.svg" /></li>
+            <li><img src="./assets/angellist.svg" /></li>
+        </ul>
+
+    </main>
 </body>
 
 </html>

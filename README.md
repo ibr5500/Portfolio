@@ -43,7 +43,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Ibrahim Ahmat**
 
 - GitHub: [@ibr5500](https://github.com/ibr5500/Portfolio/)
 - Twitter: [@ibr_ahmat](https://twitter.com/ibr_ahmat)
