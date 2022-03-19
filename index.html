@@ -16,8 +16,9 @@
 <body>
     <header>
         <nav class="nav-bar">
-            <a class="logo decoration" href="#">My Logo</a>
-            <a href="#"><i class="fa fa-bars"></i></a>
+            <div id="nav-header">
+                <a class="logo decoration" href="#">My Logo</a>
+                <a href="#"><i class="fa fa-bars"></i></a></div>
             <ul id="nav-items" class="nav-items">
                 <li class="list-style"><a class="decoration" href="#">Portfolio</a></li>
                 <li class="list-style"><a class="decoration" href="#">About</a></li>
@@ -26,30 +27,33 @@
         </nav>
     </header>
     <main id="main">
-        <section class="text-section">
-            <h1>I’m Ibrahim <br/> Glad to see you!</h1>
-            <p>
-                I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
-            </p>
-            <p class="contact">LET’S CONNECT</p>
-            <ul id="icons" class="icons list-style ">
-                <li>
-                    <a href="https://twitter.com/ibr_ahmat" target="_blank" rel="noreferrer noopener"><img src="./assets/twitter.svg" alt="Twitter icon" /></a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/ibrahim-ahmat-b5513b1a6/" target="_blank" rel="noreferrer noopener"><img src="./assets/linkedin.svg" alt="Linked-In icon" /></a>
-                </li>
-                <li>
-                    <a href="#" rel="noreferrer"><img src="./assets/medium.svg" alt="Medium icon" /></a>
-                </li>
-                <li>
-                    <a href="https://github.com/ibr5500" target="_blank" rel="noreferrer noopener"><img src="./assets/github.svg" alt="Github icon" /></a>
-                </li>
-                <li>
-                    <a href="# " rel="noreferrer"><img src="./assets/angellist.svg" alt="Angellist icon" /></a>
-                </li>
-            </ul>
-
+        <section id="text-section" class="text-section">
+            <div class="text-header">
+                <h1>I’m Ibrahim <br/> Glad to see you!</h1>
+                <p>
+                    I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
+                </p>
+            </div>
+            <div id="text-items">
+                <p id="lets-contact" class="contact">LET’S CONNECT</p>
+                <ul id="icons-list" class="icons-list list-style ">
+                    <li id="icons">
+                        <a href="https://twitter.com/ibr_ahmat" target="blank" rel="noreferrer noopener"><img src="./assets/twitter.svg" alt="Twitter icon" /></a>
+                    </li>
+                    <li id="icons">
+                        <a href="https://www.linkedin.com/in/ibrahim-ahmat-b5513b1a6/" target="blank" rel="noreferrer noopener"><img src="./assets/linkedin.svg" alt="Linked-In icon" /></a>
+                    </li>
+                    <li id="icons">
+                        <a href="#" rel="noreferrer"><img src="./assets/medium.svg" alt="Medium icon" /></a>
+                    </li>
+                    <li id="icons">
+                        <a href="https://github.com/ibr5500" target="blank" rel="noreferrer noopener"><img src="./assets/github.svg" alt="Github icon" /></a>
+                    </li>
+                    <li id="icons">
+                        <a href="# " rel="noreferrer"><img src="./assets/angellist.svg" alt="Angellist icon" /></a>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <section class="card">
@@ -178,16 +182,16 @@
                 <div id="about-icons">
                     <ul class="about-icons list-style">
                         <li class="icon ">
-                            <a href="https://twitter.com/ibr_ahmat " target="_blank " rel="noreferrer noopener "><img src="./assets/twitter.svg " alt="Twitter icon " /></a>
+                            <a href="https://twitter.com/ibr_ahmat " target="blank " rel="noreferrer noopener "><img src="./assets/twitter.svg " alt="Twitter icon " /></a>
                         </li>
                         <li class="icon ">
-                            <a href="https://www.linkedin.com/in/ibrahim-ahmat-b5513b1a6/ " target="_blank " rel="noreferrer noopener "><img src="./assets/linkedin.svg " alt="Linked-In icon " /></a>
+                            <a href="https://www.linkedin.com/in/ibrahim-ahmat-b5513b1a6/ " target="blank " rel="noreferrer noopener "><img src="./assets/linkedin.svg " alt="Linked-In icon " /></a>
                         </li>
                         <li class="icon ">
                             <a href="# " rel="noreferrer "><img src="./assets/medium.svg " alt="Medium icon " /></a>
                         </li>
                         <li class="icon ">
-                            <a href="https://github.com/ibr5500 " target="_blank " rel="noreferrer noopener "><img src="./assets/github.svg " alt="Github icon " /></a>
+                            <a href="https://github.com/ibr5500 " target="blank " rel="noreferrer noopener "><img src="./assets/github.svg " alt="Github icon " /></a>
                         </li>
                         <li class="icon ">
                             <a href="# " rel="noreferrer "><img src="./assets/angellist.svg " alt="Angellist icon " /></a>
@@ -198,31 +202,33 @@
                     </div>
                 </div>
             </div>
-            <div id="box " class='box'>
+            <div id="box" class='box'>
                 <div id="box-items">
                     <div id="box-header">
                         <h4>Langguages</h4>
                         <a id="box-angle" class="right " href="# "><img src="./assets/angle-down.png " alt="# " /></a>
                     </div>
-                    <div id="langs " class="langs ">
-                        <div id="lang-box lang1" class='lang-box'>
-                            <img class="eclipse " src="./assets/Jseclipse.png " alt=" " />
-                            <h5>JavaScript</h5>
-                        </div>
-                        <div id="lang-box lang2" class='lang-box'>
-                            <img class="eclipse " src="./assets/htmleclipse.png " alt=" " />
-                            <h5>HTML</h5>
-                        </div>
-                        <div id="lang-box lang3 " class='lang-box'>
-                            <img class="eclipse " src="./assets/csseclipse.png " alt=" " />
-                            <h5>CSS</h5>
+                    <div id="langs" class="langs ">
+                        <div id="lang-box">
+                            <div id="lang1" class='lang-box'>
+                                <img class="eclipse " src="./assets/Jseclipse.png " alt=" " />
+                                <h5>JavaScript</h5>
+                            </div>
+                            <div id="lang2" class='lang-box'>
+                                <img class="eclipse " src="./assets/htmleclipse.png " alt=" " />
+                                <h5>HTML</h5>
+                            </div>
+                            <div id="lang3" class='lang-box'>
+                                <img class="eclipse " src="./assets/csseclipse.png " alt=" " />
+                                <h5>CSS</h5>
+                            </div>
                         </div>
                     </div>
                     <div id='speare' class="speare ">
-                        <img id="box-angle" class="right " src="./assets/angle-right.png " alt="# " />
+                        <a id="box-angle" class="right" href="#"><img class="right" src="./assets/angle-right.png " alt="# " /></a>
                         <h4>Frameworks</h4>
                         <hr/>
-                        <img id="box-angle" class="right " src="./assets/angle-right.png " alt="# " />
+                        <a id="box-angle" class="right" href="#"><img class="right" src="./assets/angle-right.png " alt="# " /></a>
                         <h4>Skills</h4>
                         <hr/>
                     </div>
@@ -244,8 +250,8 @@
                 <form>
                     <input type='text' value="Ibrahim" />
                     <input type="text" value="ibr.s.ahmat@gmail.com" />
-                    <textarea width="200px">Write your message here</textarea>
-                    <input id="button-container contact-me-btn" value='Get It Touch' />
+                    <textarea>Write your message here</textarea>
+                    <input value='Get It Touch' />
                 </form>
             </div>
         </div>

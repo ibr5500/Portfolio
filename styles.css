@@ -314,16 +314,38 @@ i {
         background-repeat: no-repeat;
         background-size: 335px;
         margin: 0 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    #text-section {
+        margin: 0 10px 0 500px;
+    }
+    #text-header {
+        display: flex;
+        flex-direction: column;
+        height: 250px;
+        margin: -100px 0 0 440px;
+    }
+    #text-items {
+        display: flex;
+        flex-direction: column;
+        margin: -50px 0 0 0;
+    }
+    #nav-header {
+        display: flex;
+        flex-direction: row;
     }
     i {
         margin-right: 50px;
         right: 68px;
+        float: right;
         visibility: visible;
         color: #6070ff;
     }
     nav {
         margin: 0;
         height: 48px;
+        justify-content: space-between;
     }
     nav>a {
         margin: auto 0;
@@ -361,8 +383,17 @@ i {
     #nav-items {
         visibility: hidden;
     }
-    #icons {
-        margin: -340px 0 0 -240px;
+    #icons-list {
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+        margin: -350px 0 0 -240px;
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+    }
+    #icons>a {
+        margin: 5px;
     }
     #card {
         display: flex;
@@ -396,7 +427,7 @@ i {
     #card-text {
         font-size: 15px;
         line-height: 24px;
-        margin: 0 -10px 0 0;
+        margin: 0 10px 0 0;
     }
     #cards-elemnts {
         font-weight: 600;
@@ -449,9 +480,10 @@ i {
         width: 327px;
     }
     #box-items {
-        margin-left: -130px;
+        margin: 0 0 100px -130px;
         padding: 10px;
         width: 320px;
+        height: 800px;
     }
     #box-header {
         display: flex;
@@ -465,16 +497,18 @@ i {
         flex-direction: column;
         align-items: center;
         padding: 12px;
-        margin-left: -240px;
+        margin-left: -140px;
     }
     #lang-box {
         background: #f7f7f9;
         border-radius: 8px;
-        margin: 12px 0 0 12px;
+        margin: 50px 0 0 150px;
+        height: 40px;
+        width: 300px;
     }
     #lang1 {
         width: 300px;
-        height: 66.72px;
+        height: 40px;
         flex: none;
         order: 0;
         flex-grow: 0;
@@ -482,7 +516,7 @@ i {
     }
     #lang2 {
         width: 300px;
-        height: 66.72px;
+        height: 40px;
         flex: none;
         order: 1;
         flex-grow: 0;
@@ -490,7 +524,7 @@ i {
     }
     #lang3 {
         width: 300px;
-        height: 66.72px;
+        height: 40px;
         flex: none;
         order: 2;
         flex-grow: 0;
@@ -499,12 +533,12 @@ i {
     #speare {
         display: flex;
         flex-direction: column;
-        margin: 30px;
+        margin-top: 230px;
     }
     #contact-me {
         display: flex;
         flex-direction: column;
-        margin: 400px 0 0 1px;
+        margin: 500px 0 0 1px;
         background: url('./assets/contact-me.png');
         color: #fff;
     }
