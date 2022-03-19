@@ -8,50 +8,267 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Portfolio</title>
 </head>
 
 <body>
     <header>
-        <nav class="nav-bar">
-            <a class="logo decoration" href="#">My Logo</a>
-            <a href="#"><i class="fa fa-bars"></i></a>
-            <ul id="nav-items" class="nav-items">
+        <nav class="nav-bar flex">
+            <div class="nav-header flex">
+                <a class="logo flex decoration" href="#">My Logo</a>
+                <a href="#"><i class="fa fa-bars flex"></i></a>
+            </div>
+            <!-- <ul id="nav-items" class="nav-items">
                 <li class="list-style"><a class="decoration" href="#">Portfolio</a></li>
                 <li class="list-style"><a class="decoration" href="#">About</a></li>
                 <li class="list-style"><a class="decoration" href="#">Contact</a></li>
-            </ul>
+            </ul> -->
         </nav>
     </header>
-    <main id="main">
-        <section class="text-section">
-            <h1>I’m Ibrahim <br/> Glad to see you!</h1>
-            <p>
-                I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
-            </p>
-            <p class="contact">LET’S CONNECT</p>
+    <main class="main flex">
+        <section class="text-section flex">
+            <div>
+                <h1 class="main-header flex">I’m Ibrahim <br/> Glad to see you!</h1>
+                <p class="main-text flex">
+                    I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
+                </p>
+            </div>
+            <div class="main-items flex">
+                <p class="contact">LET’S CONNECT</p>
+                <ul class="icons-list flex list-style ">
+                    <li class="icons">
+                        <a href="https://twitter.com/ibr_ahmat" target="”_blank”" rel="noreferrer noopener"><img src="./assets/twitter.svg" alt="Twitter icon" /></a>
+                    </li>
+                    <li class="icons flex">
+                        <a href="https://www.linkedin.com/in/ibrahim-ahmat-b5513b1a6/" target="”_blank”" rel="noreferrer noopener"><img src="./assets/linkedin.svg" alt="Linked-In icon" /></a>
+                    </li>
+                    <li class="icons flex">
+                        <a href="#" rel="noreferrer"><img src="./assets/medium.svg" alt="Medium icon" /></a>
+                    </li>
+                    <li class="icons flex">
+                        <a href="https://github.com/ibr5500" target="”_blank”" rel="noreferrer noopener"><img src="./assets/github.svg" alt="Github icon" /></a>
+                    </li>
+                    <li class="icons flex">
+                        <a href="# " rel="noreferrer"><img src="./assets/angellist.svg" alt="Angellist icon" /></a>
+                    </li>
+                </ul>
+            </div>
         </section>
-        <ul class="icons list-style ">
-            <li>
-                <a href="https://twitter.com/ibr_ahmat" target="_blank" rel="noreferrer noopener"><img src="./assets/twitter.svg" alt="Twitter icon" /></a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/ibrahim-ahmat-b5513b1a6/" target="_blank" rel="noreferrer noopener"><img src="./assets/linkedin.svg" alt="Linked-In icon" /></a>
-            </li>
-            <li>
-                <a href="#" rel="noreferrer"><img src="./assets/medium.svg" alt="Medium icon" /></a>
-            </li>
-            <li>
-                <a href="https://github.com/ibr5500" target="_blank" rel="noreferrer noopener"><img src="./assets/github.svg" alt="Github icon" /></a>
-            </li>
-            <li>
-                <a href="# " rel="noreferrer"><img src="./assets/angellist.svg" alt="Angellist icon" /></a>
-            </li>
-        </ul>
     </main>
+    <section class="card flex">
+        <div class="card-items flex">
+            <img src="./assets/avocode-mobile-bg.png" alt="" />
+            <div class="card-continent flex">
+                <div>
+                    <h2 class="card-header">Tonic</h2>
+                </div>
+                <div class="cards-elemnts">
+                    <span class="span-weight-500">CANBOY</span>
+                    <img src="./assets/counter.png" alt="" />
+                    <span class="span-weight-400">Back End Dev </span>
+                    <img src="./assets/counter.png" alt="" />
+                    <span class="span-weight-400">2018</span>
+                </div>
+                <p class="card-text">
+                    A daily selection of privately personalized reads; no accounts or sign-ups required.
+                </p>
+                <ul class="skils-list flex list-style">
+                    <li class="skils">HTML</li>
+                    <li class="skils">CSS</li>
+                    <li class="skils">JavaScript</li>
+                </ul>
+                <div class="flex">
+                    <button type="button" class="button flex">See Project</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="card flex">
+        <div class="card-items flex">
+            <img src="./assets/availability-mobile-bg.png" alt="" />
+            <div class="card-continent flex">
+                <div>
+                    <h2 class="card-header">Multi-Post Stories</h2>
+                </div>
+                <div class="cards-elemnts">
+                    <span class="span-weight-500">Facebook</span>
+                    <img src="./assets/counter.png" alt="" />
+                    <span class="span-weight-400">Full Stack Dev </span>
+                    <img src="./assets/counter.png" alt="" />
+                    <span class="span-weight-400">2018</span>
+                </div>
+                <p class="card-text">
+                    Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
+                </p>
+                <ul class="skils-list flex list-style">
+                    <li class="skils">HTML</li>
+                    <li class="skils">Ruby on rails</li>
+                    <li class="skils">CSS</li>
+                    <li class="skils">JavaScript</li>
+                </ul>
+                <div class="flex">
+                    <button type="button" class="button flex">See Project</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="card flex">
+        <div class="card-items flex">
+            <img src="./assets/gym-fit-bg.png" alt="" />
+            <div class="card-continent flex">
+                <div>
+                    <h2 class="card-header">Tonic</h2>
+                </div>
+                <div class="cards-elemnts">
+                    <span class="span-weight-500">CANBOY</span>
+                    <img src="./assets/counter.png" alt="" />
+                    <span class="span-weight-400">Back End Dev </span>
+                    <img src="./assets/counter.png" alt="" />
+                    <span class="span-weight-400">2018</span>
+                </div>
+                <p class="card-text">
+                    A daily selection of privately personalized reads; no accounts or sign-ups required.
+                </p>
+                <ul class="skils-list flex list-style">
+                    <li class="skils">HTML</li>
+                    <li class="skils">CSS</li>
+                    <li class="skils">JavaScript</li>
+                </ul>
+                <div class="flex">
+                    <button type="button" class="button flex">See Project</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="card flex">
+        <div class="card-items flex">
+            <img src="./assets/art-mobile-bg.png" alt="" />
+            <div class="card-continent flex">
+                <div>
+                    <h2 class="card-header">Multi-Post Stories
+                    </h2>
+                </div>
+                <div class="cards-elemnts">
+                    <span class="span-weight-500">CANBOY</span>
+                    <img src="./assets/counter.png" alt="" />
+                    <span class="span-weight-400">Back End Dev </span>
+                    <img src="./assets/counter.png" alt="" />
+                    <span class="span-weight-400">2018</span>
+                </div>
+                <p class="card-text">
+                    A daily selection of privately personalized reads; no accounts or sign-ups required.
+                </p>
+                <ul class="skils-list flex list-style">
+                    <li class="skils">HTML</li>
+                    <li class="skils">CSS</li>
+                    <li class="skils">JavaScript</li>
+                </ul>
+                <div class="flex">
+                    <button type="button" class="button flex">See Project</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about flex">
+        <div class="card-items flex">
+            <div class="card-continent flex">
+                <h2>About <br/> Myself</h2>
+                <p class="about-text">
+                    Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
+                </p>
+                <p class="contact">LET’S CONNECT</p>
+                <div>
+                    <ul class="about-icons flex list-style">
+                        <li class="icon ">
+                            <a href="https://twitter.com/ibr_ahmat " target="”_blank”" rel="noreferrer noopener "><img src="./assets/twitter.svg " alt="Twitter icon " /></a>
+                        </li>
+                        <li class="icon ">
+                            <a href="https://www.linkedin.com/in/ibrahim-ahmat-b5513b1a6/ " target="”_blank”" rel="noreferrer noopener "><img src="./assets/linkedin.svg " alt="Linked-In icon " /></a>
+                        </li>
+                        <li class="icon ">
+                            <a href="# " rel="noreferrer "><img src="./assets/medium.svg " alt="Medium icon " /></a>
+                        </li>
+                        <li class="icon ">
+                            <a href="https://github.com/ibr5500 " target="”_blank”" rel="noreferrer noopener "><img src="./assets/github.svg " alt="Github icon " /></a>
+                        </li>
+                        <li class="icon ">
+                            <a href="# " rel="noreferrer "><img src="./assets/angellist.svg " alt="Angellist icon " /></a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="about-button-container flex">
+                        <button type="button" class="button flex">Get my resume</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='box flex'>
+            <div class="box-items flex">
+                <div class="box-header flex">
+                    <h4>Langguages</h4>
+                    <a href="# "><img src="./assets/angle-down.png " alt="# " /></a>
+                </div>
+                <div class="langs flex">
+                    <div class="lang-box-items">
+                        <div class='lang-box flex'>
+                            <img class="eclipse " src="./assets/Jseclipse.png " alt=" " />
+                            <h5>JavaScript</h5>
+                        </div>
+                        <div class='lang-box flex'>
+                            <img class="eclipse " src="./assets/htmleclipse.png " alt=" " />
+                            <h5>HTML</h5>
+                        </div>
+                        <div class='lang-box flex'>
+                            <img class="eclipse " src="./assets/csseclipse.png " alt=" " />
+                            <h5>CSS</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="speare-box flex">
+                    <div class="speare flex">
+                        <h4>Frameworks</h4>
+                        <div class="box-angle right flex">
+                            <a href="#"><img src="./assets/angle-right.png " alt="# " /></a>
+                        </div>
+                    </div>
+                    <div class="speare flex">
+                        <h4>Skills</h4>
+                        <div class="box-angle right flex">
+                            <a href="#"><img src="./assets/angle-right.png " alt="# " /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+    </section>
+    <section class="contact-me flex">
+        <div id="test">
+            <div class="contact-me-items flex">
+                <div class="contact-me-heeder flex">
+                    <h2>Contact Me</h2>
+                </div>
+                <div class="contact-me-text flex">
+                    <p>
+                        If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
+                    </p>
+                </div>
+                <div class="contact-me-form flex">
+                    <div class='form flex'>
+                        <p class="form-header flex">Ibrahim</p>
+                        <p class="form-email flex">ibr.s.ahmat@gmail.com</p>
+                        <p class="form-text flex">Write your message here</p>
+                        <div>
+                            <button type="button" id="form-button">Get It Touch</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
