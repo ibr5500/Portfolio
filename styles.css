@@ -140,9 +140,6 @@ hr {
   flex-grow: 0;
 }
 
-
-/* card elements */
-
 .card {
   display: flex;
   flex-direction: column;
@@ -339,9 +336,6 @@ hr {
   height: 30px;
   margin: 0 12px;
 }
-
-
-/* contact me page */
 
 .contact-me {
   display: flex;
