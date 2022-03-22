@@ -415,33 +415,38 @@ hr {
   color: #172b4d;
   background-color: #fff;
   border-radius: 15px;
-  text-align: center;
   height: 28px;
   padding: 10px 30px;
   flex: none;
   order: 1;
   flex-grow: 0;
   margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  border: none;
 }
 
 .form-text {
   flex-direction: column;
-  color: #b3bac5;
   background-color: #fff;
   border-radius: 15px;
-  text-align: center;
   height: 170px;
   padding: 10px 30px;
   flex: none;
   order: 2;
   flex-grow: 0;
   margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  border: none;
 }
 
 #form-button {
   position: absolute;
-  width: 150px;
-  height: 65px;
+  width: 170px;
+  height: 50px;
   color: #396df2;
   background-color: #fff;
   border: 0.5px solid #6070ff;
