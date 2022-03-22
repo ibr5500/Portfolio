@@ -54,8 +54,8 @@ i {
   flex-direction: column;
   background: url('./assets/mobile.png');
   background-repeat: no-repeat;
+  background-size: 375px;
   background-color: #fff;
-  background-size: auto;
   border-radius: 0 0 0 5px;
   width: 350px;
   padding: 114px 0 0 24px;
@@ -69,7 +69,7 @@ i {
   padding: 0;
   width: 327px;
   height: 150px;
-  margin: -50px 0 0 0;
+  margin: -50px 0 10px 0;
 }
 
 .main-header {
@@ -335,9 +335,10 @@ hr {
 
 .contact-me {
   flex-direction: column;
-  margin: -350px 0 0 1px;
+  margin: -350px 0 10px 1px;
   background: url('./assets/contact-form-shapes-mobile.png');
   background-color: #6070ff;
+  background-size: 375px;
   border-radius: 50px 0 0 0;
   color: #fff;
   width: 375px;
@@ -395,51 +396,64 @@ hr {
 
 .form-header {
   flex-direction: column;
-  color: #172b4d;
   background-color: #fff;
   border-radius: 15px;
-  text-align: center;
   height: 28px;
   padding: 10px 30px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  border: none;
   flex: none;
   order: 0;
   flex-grow: 0;
   margin-bottom: 10px;
 }
 
+.form-header::placeholder {
+  color: #172b4d;
+}
+
 .form-email {
   flex-direction: column;
-  color: #172b4d;
   background-color: #fff;
   border-radius: 15px;
-  text-align: center;
   height: 28px;
   padding: 10px 30px;
   flex: none;
   order: 1;
   flex-grow: 0;
   margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  border: none;
+}
+
+.form-email::placeholder {
+  color: #172b4d;
 }
 
 .form-text {
   flex-direction: column;
-  color: #b3bac5;
   background-color: #fff;
   border-radius: 15px;
-  text-align: center;
   height: 170px;
   padding: 10px 30px;
   flex: none;
   order: 2;
   flex-grow: 0;
   margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  border: none;
 }
 
 #form-button {
-  /* display: flex; */
   position: absolute;
-  width: 150px;
-  height: 65px;
+  width: 170px;
+  height: 50px;
   color: #396df2;
   background-color: #fff;
   border: 0.5px solid #6070ff;

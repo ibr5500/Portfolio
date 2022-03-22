@@ -17,14 +17,9 @@
     <header>
         <nav class="nav-bar flex">
             <div class="nav-header flex">
-                <a class="logo flex decoration" href="#">My Logo</a>
-                <a href="#"><i class="fa fa-bars flex"></i></a>
+                <a class="logo flex decoration" href="/my-logo">My Logo</a>
+                <a href="/#"><i class="fa fa-bars flex"></i></a>
             </div>
-            <!-- <ul id="nav-items" class="nav-items">
-                <li class="list-style"><a class="decoration" href="#">Portfolio</a></li>
-                <li class="list-style"><a class="decoration" href="#">About</a></li>
-                <li class="list-style"><a class="decoration" href="#">Contact</a></li>
-            </ul> -->
         </nav>
     </header>
     <main class="main flex">
@@ -246,7 +241,7 @@
 
     </section>
     <section class="contact-me flex">
-        <div id="test">
+        <div>
             <div class="contact-me-items flex">
                 <div class="contact-me-heeder flex">
                     <h2>Contact Me</h2>
@@ -257,14 +252,14 @@
                     </p>
                 </div>
                 <div class="contact-me-form flex">
-                    <div class='form flex'>
-                        <p class="form-header flex">Ibrahim</p>
-                        <p class="form-email flex">ibr.s.ahmat@gmail.com</p>
-                        <p class="form-text flex">Write your message here</p>
+                    <form class='form flex' action="https://formspree.io/f/mqknlobw" method="POST">
+                        <input class="form-header flex" placeholder='Ibrahim' type="text" name="fname" maxlength='30' required/>
+                        <input class="form-email flex" placeholder="ibr.5500@gmail.com" type="email" name="email" required/>
+                        <textarea class="form-text flex" placeholder="Write your message here" name="message" maxlength="500" required></textarea>
                         <div>
-                            <button type="button" id="form-button">Get It Touch</button>
+                            <button type="submit" id="form-button">Get It Touch</button>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
