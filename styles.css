@@ -415,7 +415,6 @@ hr {
 
 .form-email {
   flex-direction: column;
-  color: #172b4d;
   background-color: #fff;
   border-radius: 15px;
   height: 28px;
@@ -428,6 +427,10 @@ hr {
   font-size: 17px;
   line-height: 20px;
   border: none;
+}
+
+.form-email::placeholder {
+  color: #172b4d;
 }
 
 .form-text {
