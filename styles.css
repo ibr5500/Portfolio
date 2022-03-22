@@ -398,9 +398,12 @@ hr {
   color: #172b4d;
   background-color: #fff;
   border-radius: 15px;
-  text-align: center;
   height: 28px;
   padding: 10px 30px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  border: none;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -436,7 +439,6 @@ hr {
 }
 
 #form-button {
-  /* display: flex; */
   position: absolute;
   width: 150px;
   height: 65px;
