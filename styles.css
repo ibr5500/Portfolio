@@ -395,7 +395,6 @@ hr {
 
 .form-header {
   flex-direction: column;
-  color: #172b4d;
   background-color: #fff;
   border-radius: 15px;
   height: 28px;
@@ -408,6 +407,10 @@ hr {
   order: 0;
   flex-grow: 0;
   margin-bottom: 10px;
+}
+
+.form-header::placeholder {
+  color: #172b4d;
 }
 
 .form-email {
