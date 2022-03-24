@@ -14,16 +14,20 @@
 </head>
 
 <body>
-    <header>
+    <header class="flex">
         <nav class="nav-bar flex">
             <div class="nav-header flex">
-                <a class="logo flex decoration" href="/my-logo">My Logo</a>
-                <a href="/#"><i class="fa fa-bars " id="menu-button"></i></a>
-                <ul class="hidden nav-list right">
-                    <li class="nav-items list-style"><a class="items decoration" href="#">Portfolio</a></li>
-                    <li class="nav-items list-style"><a class="items decoration" href="#">About</a></li>
-                    <li class="nav-items list-style"><a class="items decoration" href="#">Contact</a></li>
-                </ul>
+                <div class="flex">
+                    <a class="logo flex decoration" href="/my-logo">My Logo</a>
+                </div>
+                <div class="nav-list flex">
+                    <a href="/#"><i class="fa fa-bars " id="menu-button"></i></a>
+                    <ul class="hidden right">
+                        <li class="item-navigation list-style"><a class="decoration" href="#">Portfolio</a></li>
+                        <li class="item-navigation list-style"><a class="decoration" href="#">About</a></li>
+                        <li class="item-navigation list-style"><a class="decoration" href="#">Contact</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>

@@ -17,7 +17,7 @@ body {
 header {
   position: relative;
   padding: 15px 10px;
-  margin: 1px 0;
+  margin: 0.5px 0;
   color: #6070ff;
   background: #fff;
   width: 360px;
@@ -35,6 +35,8 @@ header {
 }
 
 .logo {
+  width: 76px;
+  height: 20px;
   align-items: center;
   text-align: center;
   color: #6070ff;
@@ -218,11 +220,11 @@ hr {
   line-height: 16px;
   height: 16px;
   letter-spacing: 0.03em;
-  color: #253858;
+  color: #6070ff;
   background: #ebebff;
   border-radius: 8px;
   padding: 4px 12px;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .button {
@@ -562,49 +564,47 @@ hr {
 @media (min-width: 768px) {
   body {
     flex-direction: row;
-    width: 100%;
+    width: auto;
   }
 
   header {
-    padding: 15px 0;
-    width: 100%;
+    flex-direction: row;
+    width: auto;
     height: 42px;
+    justify-content: space-between;
   }
 
   .nav-bar {
-    width: 100%;
+    flex-direction: row;
+    width: auto;
   }
 
   .nav-header {
-    align-items: flex-end;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 142px;
   }
 
   .nav-list {
+    float: right;
+    margin-right: -1000px;
+  }
+
+  .item-navigation {
     flex-direction: row;
-    margin: 0 150px 0 600px;
-  }
-
-  .nav-items {
-    margin: 0 10px;
-  }
-
-  .items {
-    width: 46px;
+    margin: 10px;
     height: 20px;
-    color: #344563;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
   }
 
-  .items:hover {
-    color: #6070ff;
+  .item-navigation > a {
+    color: #344563;
   }
 
-  .logo {
-    width: 76px;
-    height: 20px;
-    margin: 10px 0 0 155px;
+  .item-navigation > a:hover {
+    color: #6070ff;
   }
 
   #menu-button {
@@ -625,7 +625,7 @@ hr {
     background: url('./assets/Header-bg.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 90%;
+    width: auto;
     margin: 10px 0 0 15px;
     height: 650px;
   }
@@ -665,9 +665,9 @@ hr {
   .card {
     flex-direction: row;
     height: 496px;
-    width: 1150px;
+    width: 1106px;
     padding: 24px;
-    margin: 142px 5px 5px 30px;
+    margin: 142px auto 5px auto;
   }
 
   .card-items {
@@ -683,7 +683,7 @@ hr {
   }
 
   .card-continent {
-    width: 540px;
+    width: 490px;
     height: 415px;
     margin: 16px 22px;
     padding: 12px;
@@ -691,7 +691,7 @@ hr {
   }
 
   .card-image {
-    width: 540px;
+    width: 544px;
   }
 
   .card-header {
@@ -758,7 +758,7 @@ hr {
   }
 
   .about-continent {
-    width: 447px;
+    width: 407px;
   }
 
   .about-text {
@@ -774,8 +774,8 @@ hr {
 
   .box {
     flex-direction: row;
-    margin: 110px 0 0 180px;
-    width: 520px;
+    margin: 110px -100px 0 180px;
+    width: 600px;
     height: 360px;
   }
 
@@ -784,7 +784,7 @@ hr {
   }
 
   .langs {
-    margin: 36px 0 36px -20px;
+    margin: 36px -50px 36px -20px;
   }
 
   .lang-box {
@@ -796,6 +796,10 @@ hr {
     margin: 0 5px;
   }
 
+  .lang-box-items {
+    width: 400px;
+  }
+
   .speare {
     height: 24px;
   }
@@ -805,7 +809,7 @@ hr {
     background: url('./assets/contact-bg.png');
     background-color: #6070ff;
     border-radius: 150px 0 0 0;
-    width: 99.94%;
+    width: auto;
     height: 846px;
     margin: -400px 0 0 0;
   }
