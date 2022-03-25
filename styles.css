@@ -46,8 +46,6 @@ header {
   font-size: 18px;
   line-height: 20px;
   text-decoration: none;
-
-  /* margin: 10px 230px 0 10px; */
 }
 
 i {
@@ -583,8 +581,6 @@ hr {
 
   .topnav {
     width: 1420px;
-
-    /* overflow: hidden; */
   }
 
   .topnav a {
@@ -595,14 +591,20 @@ hr {
     font-size: 17px;
   }
 
+  .logo {
+    margin-left: 143px;
+  }
+
   .nav-right {
     float: right;
+    margin-right: 120px;
   }
 
   .item-navigation {
     flex-direction: row;
     margin: 10px;
     height: 20px;
+    width: 62px;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
