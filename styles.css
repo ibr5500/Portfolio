@@ -15,7 +15,6 @@ body {
 }
 
 header {
-  position: relative;
   padding: 15px 10px;
   margin: 0.5px 0;
   color: #6070ff;
@@ -24,14 +23,17 @@ header {
   height: 30px;
 }
 
-.nav-bar {
-  flex-direction: row;
+.topnav {
   width: 350px;
 }
 
-.nav-header {
-  flex-direction: row;
-  justify-content: space-between;
+.topnav a {
+  float: left;
+}
+
+.nav-right {
+  float: right;
+  align-items: center;
 }
 
 .logo {
@@ -43,7 +45,9 @@ header {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  margin: 10px 230px 0 10px;
+  text-decoration: none;
+
+  /* margin: 10px 230px 0 10px; */
 }
 
 i {
@@ -214,13 +218,16 @@ hr {
 .skils-list {
   flex-direction: row;
   margin: 0 0 5px 0;
+  width: auto;
 }
 
 .skils {
+  width: auto;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  height: 16px;
+  height: auto;
+  align-self: center;
   letter-spacing: 0.03em;
   color: #6070ff;
   background: #ebebff;
@@ -305,6 +312,7 @@ hr {
   flex-direction: row;
   width: 170.17px;
   height: 20px;
+  margin: 15px 0 0 0;
 }
 
 .about-button-container {
@@ -329,7 +337,7 @@ hr {
   margin: 0 0 100px 5px;
   padding: 10px;
   width: 303px;
-  height: 800px;
+  height: 400px;
 }
 
 .box-header {
@@ -568,24 +576,27 @@ hr {
   }
 
   header {
-    flex-direction: row;
     width: 1420px;
     height: 42px;
-    justify-content: space-between;
+    background: #fff;
   }
 
-  .nav-bar {
-    flex-direction: row;
+  .topnav {
+    width: 1420px;
+
+    /* overflow: hidden; */
   }
 
-  .nav-header {
-    flex-direction: row;
-    align-items: center;
-    margin: 0 142px;
+  .topnav a {
+    float: left;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 17px;
   }
 
-  .nav-list {
-    margin: 0 0 0 120vh;
+  .nav-right {
+    float: right;
   }
 
   .item-navigation {
@@ -595,13 +606,10 @@ hr {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-  }
-
-  .item-navigation > a {
     color: #344563;
   }
 
-  .item-navigation > a:hover {
+  .item-navigation:hover {
     color: #6070ff;
   }
 
@@ -774,13 +782,13 @@ hr {
 
   .box {
     flex-direction: row;
-    margin: 142px 142px 166px 5px;
+    margin: 142px 142px 0 5px;
     width: 684px;
     height: 360px;
   }
 
   .box-header {
-    margin: 142px 0 0 142px;
+    margin: 48px 0 0 0;
     height: 72px;
   }
 
@@ -818,7 +826,7 @@ hr {
     border-radius: 150px 0 0 0;
     width: 1440px;
     height: 846px;
-    margin: -166px 0 0 0;
+    margin: -18% 0 0 0;
   }
 
   .contact-me-container {
