@@ -16,7 +16,6 @@ body {
 
 header {
   padding: 15px 10px;
-  margin: 0.5px 0;
   color: #6070ff;
   background: #fff;
   width: 355px;
@@ -63,7 +62,8 @@ i {
   border-radius: 0 0 0 5px;
   width: 363px;
   padding: 114px 6px 0 6px;
-  margin: 1px 0;
+
+  /* margin: 1px 0; */
   height: 604px;
   align-items: center;
 }
@@ -625,7 +625,6 @@ hr {
 
   .main-container {
     width: 1440px;
-    margin: 1px 0;
     background: #fff;
     border-radius: 0 0 0 150px;
   }
