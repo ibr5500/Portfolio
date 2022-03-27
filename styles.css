@@ -3,6 +3,7 @@
   font-style: normal;
   margin: 0;
   padding: 0;
+  max-width: 375px;
 }
 
 body {
@@ -399,7 +400,7 @@ hr {
 
 .contact-me {
   flex-direction: column;
-  margin: -150px 0 10px 1px;
+  margin: -150px 0 0 0;
   background: url('./assets/contact-form-shapes-mobile.png');
   background-color: #6070ff;
   background-size: 375px;
@@ -515,7 +516,7 @@ hr {
 }
 
 #form-button {
-  position: absolute;
+  flex-direction: row;
   width: 170px;
   height: 50px;
   color: #396df2;
@@ -532,7 +533,7 @@ hr {
   flex: none;
   order: 3;
   flex-grow: 0;
-  margin: 260px 0 30px 0;
+  margin: 10px 0 0 0;
 }
 
 #form-button:hover {
@@ -566,6 +567,10 @@ hr {
 }
 
 @media screen and (min-width: 768px) {
+  * {
+    max-width: 1440px;
+  }
+
   body {
     flex-direction: row;
     width: 1400px;
@@ -837,7 +842,7 @@ hr {
   .contact-me-items {
     flex-direction: column;
     width: 801px;
-    height: 577px;
+    height: 600px;
     margin: 142px 319px 0 320px;
   }
 
@@ -871,6 +876,6 @@ hr {
   }
 
   #form-button {
-    margin: 300px 150px 0 150px;
+    margin: 13.5px 150px;
   }
 }
