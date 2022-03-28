@@ -49,15 +49,14 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@ibr_ahmat](https://twitter.com/ibr_ahmat)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ibrahim-ahmat-b5513b1a6/)
 
+## 🤝 Contributing
+
 👤 **Simba Eugene**
 
 - GitHub: [@S-imba](https://github.com/S-imba)
 - Twitter: [@S_imba10](https://twitter.com/S_imba10)
 
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
