@@ -16,7 +16,7 @@
 
 ## Live Demo (if available)
 
-Not avalible 
+[Click] for Live Demo Link (https://ibr5500.github.io/Portfolio/)
 
 
 ## Getting Started
@@ -28,18 +28,23 @@ Not avalible
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- HTML & CSS
 
 ### Setup
-- Set up the linter
-### Install
-
-### Usage
+- linters for HTML and CSS
 
 ### Run tests
+- Open your terminal, move to the directory where you want to clone the app (i.e cd Documents) 
+- Enter git clone git@github.com:ibr5500.github.io/Portfolio/
+- Change to the directory you just clone into (i.e cd Portfolio)
+- Open index.html from the list of files in your left handside
+- Right click on your opened index.html file and launch the live server to preview
+- Include any possible changes and run "git add ." 
+- Commit the changes with a descriptive message (i.e xyz features added) 
+- Push the changes to changes to the repository (i.e git push)
 
 ### Deployment
-
-
+- This app is deployed using Github pages (https://pages.github.com/)
 
 ## Authors
 
@@ -54,7 +59,6 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@S-imba](https://github.com/S-imba)
 - Twitter: [@S_imba10](https://twitter.com/S_imba10)
 
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -63,9 +67,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Please give a ⭐️ if you like this project!
 
-⭐️⭐️⭐️⭐️⭐️
+
 
 ## Acknowledgments
 
