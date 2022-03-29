@@ -46,7 +46,7 @@ To get a local copy up and running follow these simple example steps.
 ### Deployment
 - This app is deployed using Github pages (https://pages.github.com/)
 
-## Authors
+## Author
 
 👤 **Ibrahim Ahmat**
 
@@ -54,10 +54,6 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@ibr_ahmat](https://twitter.com/ibr_ahmat)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ibrahim-ahmat-b5513b1a6/)
 
-👤 **Simba Eugene**
-
-- GitHub: [@S-imba](https://github.com/S-imba)
-- Twitter: [@S_imba10](https://twitter.com/S_imba10)
 
 ## 🤝 Contributing
 
