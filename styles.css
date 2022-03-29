@@ -62,10 +62,15 @@ header {
     }
 }
 
-i {
+#menu-button {
     flex-direction: row;
     margin: 10px 5px 0 0;
     color: #6070ff;
+}
+
+#menu-button:hover {
+    transform: scale(1.2, 1.2);
+    color: #344563;
 }
 
 .main {
@@ -301,7 +306,7 @@ hr {
 }
 
 .about-continent {
-    width: 327px;
+    width: 307px;
     height: 320px;
     margin: 10px;
 }
@@ -580,6 +585,10 @@ hr {
 
 .list-style {
     list-style-type: none;
+}
+
+.angle {
+    color: #344563;
 }
 
 @media screen and (min-width: 768px) {
