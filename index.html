@@ -14,25 +14,30 @@
 </head>
 
 <body>
-    <header class="flex">
-        <div class="nav-bar flex">
+    <header class="">
+        <div class="nav-bar">
             <div>
                 <div class="topnav">
                     <a class="logo" href="#">My Logo</a>
                     <div class="nav-right ">
-                        <a id="menu-button" class="item-navigation" href="javascript:void(0)" onclick=""><i class="fa fa-bars"></i></a>
-                       <div id="mob-menu">
-                        <a class="item-navigation hidden" href="#home ">Portfolio</a>
+                        <a id="menu-button" class="item-navigation" href="#"><i class="fa fa-bars"></i></a>
+                        <a class="item-navigation hidden" href="#card">Portfolio</a>
                         <a class="item-navigation hidden" href="#about ">About</a>
                         <a class="item-navigation hidden" href="#contact ">Contact</a>
-                       </div>
-                       
                     </div>
                 </div>
             </div>
+            <div id="mobile-menu">
+                <a id="close" href="#"><i class="fa fa-close"></i></a>
+                <ul>
+                    <li><a class="mobile-item-navigation" href="#card">Portfolio</a></li>
+                    <li><a class="mobile-item-navigation" href="#about ">About</a></li>
+                    <li><a class="mobile-item-navigation" href="#contact ">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </header>
-    <main id="home" class="main-container">
+    <main class="main-container">
         <div class="main flex">
             <section class="text-section flex">
                 <div>
@@ -64,7 +69,7 @@
             </section>
         </div>
     </main>
-    <section class="card flex">
+    <section id="card" class="card flex">
         <div class="card-items flex">
             <img class='card-image' src="./assets/nature.png" alt=" " />
             <div class="card-continent flex">
@@ -259,7 +264,7 @@
         </div>
 
     </section>
-    <section class="contact-me ">
+    <section id="contact" class="contact-me ">
         <div class="contact-me-container ">
             <div class="contact-me-items ">
                 <div class="contact-me-heeder flex ">
@@ -281,6 +286,8 @@
             </div>
         </div>
     </section>
+
+    <script src="index.js"></script>
 </body>
 
 </html>

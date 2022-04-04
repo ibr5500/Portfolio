@@ -1,10 +1,7 @@
-function openMenu() {
-  const x = document.getElementById('mob-menu');
-  if (x.style.display === 'block') {
-    x.style.display = 'none';
-  } else {
-    x.style.display = 'block';
-  }
-}
+document.getElementById('menu-button').onclick = function openMenu() {
+  document.getElementById('mobile-menu').style = 'display: block';
+};
 
-openMenu();
+document.getElementById('close').onclick = function openMenu() {
+  document.getElementById('mobile-menu').style = 'display: none';
+};

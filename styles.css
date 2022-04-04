@@ -74,6 +74,42 @@ header {
   color: #344563;
 }
 
+#mobile-menu {
+  position: absolute;
+  display: none;
+  background: #6070ff;
+  opacity: 0.89;
+  height: 812px;
+  top: 0;
+  left: 0;
+  width: 980%;
+}
+
+#mobile-menu #close {
+  color: #fff;
+  float: right;
+  margin: 60px 20px 0 0;
+  height: 20px;
+  width: 20px;
+}
+
+#mobile-menu ul {
+  margin: 100px 0 0 0;
+  padding: 0 0 0 28px;
+}
+
+#mobile-menu li {
+  padding: 10px 0;
+}
+
+#mobile-menu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
 .main {
   flex-direction: column;
   background: url('./assets/mobile-bg.png');
@@ -644,6 +680,10 @@ hr {
 
   .item-navigation:hover {
     color: #6070ff;
+  }
+
+  #mobile-menu {
+    display: none;
   }
 
   #menu-button {
