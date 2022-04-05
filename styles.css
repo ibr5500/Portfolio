@@ -3,13 +3,13 @@
   font-style: normal;
   margin: 0;
   padding: 0;
-  max-width: 375px;
 }
 
 body {
   display: grid;
   flex-direction: column;
-  width: 375px;
+  min-width: 320px;
+  max-width: 425px;
   background: #e5e5e5;
   height: auto;
   border-radius: 15px 50px 30px 5px;
@@ -33,7 +33,6 @@ header {
 
 .nav-right {
   float: right;
-  align-items: center;
 }
 
 .logo {
@@ -50,7 +49,7 @@ header {
 }
 
 .logo:hover {
-  transform: scale(1.5, 1.5);
+  transform: scale(1.2, 1.2);
 }
 
 @-webkit-keyframes spin {
@@ -74,6 +73,43 @@ header {
   color: #344563;
 }
 
+#mobile-menu {
+  position: fixed;
+  z-index: 0;
+  height: 110vh;
+  display: none;
+  background: #6070ff;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#mobile-menu #closeButton {
+  float: right;
+  color: #fff;
+  margin: 60px 20px 0 0;
+  height: 20px;
+  width: 20px;
+}
+
+#mobile-menu ul {
+  margin: 100px 0 0 0;
+  padding: 0 0 0 28px;
+}
+
+#mobile-menu li {
+  padding: 10px 0;
+}
+
+#mobile-menu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
 .main {
   flex-direction: column;
   background: url('./assets/mobile-bg.png');
@@ -85,6 +121,7 @@ header {
   padding: 114px 6px 0 6px;
   height: 604px;
   align-items: center;
+  backdrop-filter: none;
 }
 
 .text-section {
@@ -259,8 +296,8 @@ hr {
 
 .button {
   flex-direction: row;
-  position: absolute;
-  width: 140px;
+  position: static;
+  width: auto;
   height: 48px;
   color: #396df2;
   background-color: #fff;
@@ -339,6 +376,7 @@ hr {
 .about-button-container {
   flex-direction: column;
   margin: 20px 0 0 0;
+  width: 185px;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -444,7 +482,7 @@ hr {
   font-weight: 700;
   font-size: 30px;
   line-height: 52px;
-  margin: 40px 0 10px 30px;
+  margin: 40px 0 10px 20px;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -608,6 +646,8 @@ hr {
     width: 1420px;
     height: 42px;
     background: #fff;
+    position: sticky;
+    top: 0;
   }
 
   .topnav {
@@ -626,9 +666,12 @@ hr {
     margin-left: 143px;
   }
 
+  .logo:hover {
+    transform: scale(1.5, 1.5);
+  }
+
   .nav-right {
-    float: right;
-    margin-right: 120px;
+    margin-right: 80px;
   }
 
   .item-navigation {
@@ -644,6 +687,10 @@ hr {
 
   .item-navigation:hover {
     color: #6070ff;
+  }
+
+  #mobile-menu {
+    display: none;
   }
 
   #menu-button {
@@ -782,7 +829,7 @@ hr {
     width: 1430px;
     height: 924px;
     border-radius: 0 150px 0 0;
-    margin: 142px 130px 142px 0;
+    margin: 142px 130px 132px 0;
   }
 
   .about-items {
