@@ -16,7 +16,7 @@
 
 ## Live Demo (if available)
 
-[Click] for Live Demo Link (https://ibr5500.github.io/Portfolio/)
+[Click](https://ibr5500.github.io/Portfolio/) for Live Demo Link
 
 
 ## Getting Started
