@@ -2,15 +2,16 @@
 
 # Portfolio: setup and mobile version skeleton
 
-> in this project 2:
-- Set up the linters for html&css.
-- Create a html - header & a main section & add a contact me section.
+> in this project:
+- Set up the linters for html, css, and JavaScript.
+- Create a popup window for desktop and mobile.
 
 
 ## Built With 
 
 - Html
 - Css
+- JavaScript
 - VS Studio
 - Git Bash
 
@@ -28,10 +29,10 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-- HTML & CSS
+- HTML & CSS & JS
 
 ### Setup
-- linters for HTML and CSS
+- linters for HTML, CSS and JS
 
 ### Run tests
 - Open your terminal, move to the directory where you want to clone the app (i.e cd Documents) 
@@ -50,12 +51,15 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Ibrahim Ahmat**
 
-- GitHub: [@ibr5500](https://github.com/ibr5500/Portfolio/)
+- GitHub: [@ibr5500](https://github.com/ibr5500)
 - Twitter: [@ibr_ahmat](https://twitter.com/ibr_ahmat)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ibrahim-ahmat-b5513b1a6/)
 
 
 ## 🤝 Contributing
+
+- GitHub: [@RWUBAKWANAYO](https://github.com/RWUBAKWANAYO)
+
 
 Contributions, issues, and feature requests are welcome!
 
