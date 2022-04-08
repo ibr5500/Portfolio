@@ -18,9 +18,6 @@ body {
   border-radius: 15px 50px 30px 5px;
 }
 
-
-/* popup window mobile */
-
 .window {
   display: none;
   z-index: 0;
