@@ -862,6 +862,7 @@ hr {
 }
 
 .form-error {
+  display: none;
   width: 75%;
   padding: 5px;
   font-weight: 500;
