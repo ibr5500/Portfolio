@@ -857,6 +857,24 @@ hr {
   margin: 0 0 10px 0;
 }
 
+.form > span {
+  display: none;
+}
+
+.form-error {
+  display: none;
+  width: 75%;
+  padding: 5px;
+  font-weight: 500;
+  color: #172b4d;
+  background-color: #ffa59e;
+  border: 0.2px red solid;
+  border-radius: 5px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
 .form-button {
   flex-direction: row;
   width: 70%;
@@ -873,7 +891,7 @@ hr {
   border-radius: 10px;
   padding: 15px 20px;
   flex: none;
-  order: 3;
+  order: 4;
   flex-grow: 0;
   margin: 0 0 10px 0;
 }

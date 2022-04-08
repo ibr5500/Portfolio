@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: setup and mobile version skeleton
+# Portfolio: validate contact form
 
 > in this project:
 - Set up the linters for html, css, and JavaScript.

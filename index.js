@@ -190,3 +190,26 @@ const closeWindow = (status) => {
 closeWindow(null);
 
 // end popup window
+
+// validation for email
+function chckValidation(elem) {
+  if (!elem) {
+    document.querySelector('small').style = 'display: block';
+    document.querySelector('small').innerHTML = 'Please write your email in lowercase.';
+    document.querySelector('.form-email').style = 'border: 3px red solid';
+  }
+}
+
+const form = document.getElementById('form');
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const email = document.querySelector('.form-email').value;
+  if (email !== email.toLowerCase()) {
+    chckValidation(false);
+    return;
+  }
+  form.submit();
+  form.reset();
+  chckValidation(true);
+});
+// end validation
