@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: validate contact form
+# Portfolio: preserve data in the browser
 
 > in this project:
 - Set up the linters for html, css, and JavaScript.
@@ -59,7 +59,7 @@ To get a local copy up and running follow these simple example steps.
 ## 🤝 Contributing
 
 - GitHub: [@RWUBAKWANAYO](https://github.com/RWUBAKWANAYO)
-
+- GitHub: [@sarazaToussaint](https://github.com/sarazaToussaint)
 
 Contributions, issues, and feature requests are welcome!
 
