@@ -160,9 +160,9 @@
                 </div>
                 <div class="contact-me-form flex">
                     <form id="form" class='form flex' action="https://formspree.io/f/mqknlobw" method="post">
-                        <input class="form-header" placeholder="Full name" type="text" name="fname" maxlength='30' required/>
-                        <input class="form-email" placeholder="E-mail" type="email" name="email" pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$" required/>
-                        <textarea class="form-text" placeholder="Write your message here" name="message" maxlength="500" required></textarea>
+                        <input id="name" class="form-header formInput" placeholder="Full name" type="text" name="name" maxlength='30' required/>
+                        <input id="email" class="form-email formInput" placeholder="E-mail" type="email" name="email" pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$" required/>
+                        <textarea id="message" class="form-text formInput" placeholder="Write your message here" name="message" maxlength="500" required></textarea>
                         <small class="form-error"></small>
                         <button class="form-button" type="submit">Get It Touch</button>
                     </form>
