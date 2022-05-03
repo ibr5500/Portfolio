@@ -40,8 +40,8 @@ const projectsList = [{
     'CSS',
     'HTML',
   ],
-  liveLink: 'https://ibr5500.github.io/Capstone/',
-  sourceLink: 'https://github.com/ibr5500/Capstone',
+  liveLink: 'https://ibr5500.github.io/To-Do-List/',
+  sourceLink: 'https://github.com/ibr5500/To-Do-List',
 },
 {
   id: 2,
@@ -76,8 +76,8 @@ const projectsList = [{
     'CSS',
     'JavaScript',
   ],
-  liveLink: 'https://ibr5500.github.io/Portfolio/',
-  sourceLink: 'https://github.com/ibr5500/Portfolio',
+  liveLink: 'https://ibr5500.github.io/Capstone/',
+  sourceLink: 'https://github.com/ibr5500/Capstone',
 },
 {
   id: 4,
