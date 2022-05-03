@@ -4,104 +4,104 @@ const closeButton = document.querySelector('.close');
 const closeItems = document.querySelector('.closeItem');
 
 openButton.onclick = function openMenu() {
-    document.querySelector('#mobile-menu').style = 'display: block';
-    document.querySelector('#menu-button').style = 'display: none';
-    document.querySelector('body').style = 'overflow: hidden';
-    document.querySelector('main').style = 'filter: blur(6px); z-index: -1';
+  document.querySelector('#mobile-menu').style = 'display: block';
+  document.querySelector('#menu-button').style = 'display: none';
+  document.querySelector('body').style = 'overflow: hidden';
+  document.querySelector('main').style = 'filter: blur(6px); z-index: -1';
 };
 
 closeButton.onclick = function closeMenu() {
-    document.querySelector('#mobile-menu').style = 'display: none';
-    document.querySelector('#menu-button').style = 'display: block';
-    document.querySelector('body').style = 'overflow: scroll';
-    document.querySelector('main').style = 'filter: none; z-index: 0';
+  document.querySelector('#mobile-menu').style = 'display: none';
+  document.querySelector('#menu-button').style = 'display: block';
+  document.querySelector('body').style = 'overflow: scroll';
+  document.querySelector('main').style = 'filter: none; z-index: 0';
 };
 
 closeItems.onclick = function closeItem() {
-    document.querySelector('#mobile-menu').style = 'display: none';
-    document.querySelector('#menu-button').style = 'display: block';
-    document.querySelector('body').style = 'overflow: scroll';
-    document.querySelector('main').style = 'filter: none; z-index: 0';
+  document.querySelector('#mobile-menu').style = 'display: none';
+  document.querySelector('#menu-button').style = 'display: block';
+  document.querySelector('body').style = 'overflow: scroll';
+  document.querySelector('main').style = 'filter: none; z-index: 0';
 };
 // end
 
 const projectsList = [{
-        id: 1,
-        image: './assets/todo-list.png',
-        title: 'ToDo list project',
-        description: 'I built this project as a solo project, as part of second week of the second module in Microverse Academy.<br/>And we had to use what we learned in it. Make the website responsive, design, webpack,and JavaScript concepts.',
-        spans: [
-            'Microverse',
-            'Front End Dev',
-            '2022',
-        ],
-        skills: [
-            'JavaScript',
-            'CSS',
-            'HTML',
-        ],
-        liveLink: 'https://ibr5500.github.io/Capstone/',
-        sourceLink: 'https://github.com/ibr5500/Capstone',
-    },
-    {
-        id: 2,
-        image: './assets/awesome-book.png',
-        title: 'Awesome Book',
-        description: 'This project was a remote contribution with ( Rwubakwanayo Olivier ), and we built a library system using Object Oriented Programming to add new books to the list you can remove a certain book from the list by clicking on the Remove button.',
-        spans: [
-            'Microverse',
-            'Front End Dev',
-            '2022',
-        ],
-        skills: [
-            'HTML',
-            'CSS',
-            'JavaScript',
-        ],
-        liveLink: 'https://github.com/RWUBAKWANAYO/Awesome-Books',
-        sourceLink: 'https://github.com/RWUBAKWANAYO/Awesome-Books',
-    },
-    {
-        id: 3,
-        image: './assets/capstone.png',
-        title: 'Capstone project',
-        description: 'I built this project as a solo project, as part of last week(5) of the first module in Microverse BootCamp or Academy.<br/>And we had to use some of what we learned in the past month. Make the website responsive, design, and some JavaScript concepts.',
-        spans: [
-            'Microverse',
-            'Front End Dev',
-            '2022',
-        ],
-        skills: [
-            'HTML',
-            'CSS',
-            'JavaScript',
-        ],
-        liveLink: 'https://ibr5500.github.io/Portfolio/',
-        sourceLink: 'https://github.com/ibr5500/Portfolio',
-    },
-    {
-        id: 4,
-        image: './assets/avaliability.png',
-        title: 'Uber Navigation',
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
-        spans: [
-            'Uber',
-            'Lead Developer',
-            '2018',
-        ],
-        skills: [
-            'HTML',
-            'Ruby on rails',
-            'CSS',
-            'JavaScript',
-        ],
-        liveLink: 'https://ibr5500.github.io/Portfolio/',
-        sourceLink: 'https://github.com/ibr5500/Portfolio',
-    },
+  id: 1,
+  image: './assets/todo-list.png',
+  title: 'ToDo list project',
+  description: 'I built this project as a solo project, as part of second week of the second module in Microverse Academy.<br/>And we had to use what we learned in it. Make the website responsive, design, webpack,and JavaScript concepts.',
+  spans: [
+    'Microverse',
+    'Front End Dev',
+    '2022',
+  ],
+  skills: [
+    'JavaScript',
+    'CSS',
+    'HTML',
+  ],
+  liveLink: 'https://ibr5500.github.io/Capstone/',
+  sourceLink: 'https://github.com/ibr5500/Capstone',
+},
+{
+  id: 2,
+  image: './assets/awesome-book.png',
+  title: 'Awesome Book',
+  description: 'This project was a remote contribution with ( Rwubakwanayo Olivier ), and we built a library system using Object Oriented Programming to add new books to the list you can remove a certain book from the list by clicking on the Remove button.',
+  spans: [
+    'Microverse',
+    'Front End Dev',
+    '2022',
+  ],
+  skills: [
+    'HTML',
+    'CSS',
+    'JavaScript',
+  ],
+  liveLink: 'https://github.com/RWUBAKWANAYO/Awesome-Books',
+  sourceLink: 'https://github.com/RWUBAKWANAYO/Awesome-Books',
+},
+{
+  id: 3,
+  image: './assets/capstone.png',
+  title: 'Capstone project',
+  description: 'I built this project as a solo project, as part of last week(5) of the first module in Microverse BootCamp or Academy.<br/>And we had to use some of what we learned in the past month. Make the website responsive, design, and some JavaScript concepts.',
+  spans: [
+    'Microverse',
+    'Front End Dev',
+    '2022',
+  ],
+  skills: [
+    'HTML',
+    'CSS',
+    'JavaScript',
+  ],
+  liveLink: 'https://ibr5500.github.io/Portfolio/',
+  sourceLink: 'https://github.com/ibr5500/Portfolio',
+},
+{
+  id: 4,
+  image: './assets/avaliability.png',
+  title: 'Uber Navigation',
+  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
+  spans: [
+    'Uber',
+    'Lead Developer',
+    '2018',
+  ],
+  skills: [
+    'HTML',
+    'Ruby on rails',
+    'CSS',
+    'JavaScript',
+  ],
+  liveLink: 'https://ibr5500.github.io/Portfolio/',
+  sourceLink: 'https://github.com/ibr5500/Portfolio',
+},
 ];
 
 const cards = () => {
-        const card = projectsList.map((elem, index) => ` <div class="card flex">
+  const card = projectsList.map((elem, index) => ` <div class="card flex">
             <div class="${index % 2 !== 0 ? 'card-items-reverse' : 'card-items'} flex">
                 <img class='card-image' src="${elem.image}" alt="Project-${elem.id} screenshot" />
                 <div class="card-continent flex">
