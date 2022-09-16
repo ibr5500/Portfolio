@@ -25,8 +25,49 @@ closeItems.onclick = function closeItem() {
 };
 // end
 
-const projectsList = [{
-  id: 1,
+const projectsList = [
+  {
+    id: 1,
+    image: './assets/egivy.png',
+    title: 'EgIvy app',
+    description: 'A web application where you can manage your budget, you have a list of transactions associated with a category, so that you can see how much money you spent and on what, built as solo.',
+    spans: [
+      'Microverse',
+      'Full Stack Dev',
+      '2022',
+    ],
+    skills: [
+      'Ruby on Rails',
+      'bootstrap',
+      'RSpec',
+      'Devise',
+      'heroku'
+    ],
+    liveLink: 'https://egivy.herokuapp.com/',
+    sourceLink: 'https://github.com/ibr5500/Budget_App',
+  },
+  {
+    id: 2,
+    image: './assets/disney.png',
+    title: 'Disney World',
+    description: 'Disney World: is a Metric data app about Disney characters, using disney API, displays their names, images , movies, and Tv Shows, built as solo.',
+    spans: [
+      'Microverse',
+      'Front End Dev',
+      '2022',
+    ],
+    skills: [
+      'React-Redux',
+      'CSS',
+      'Jest',
+      'Disney-API',
+      'Netlify'
+    ],
+    liveLink: 'https://disney-world.netlify.app/',
+    sourceLink: 'https://github.com/ibr5500/Disney-world',
+  },
+{
+  id: 3,
   image: './assets/foodify-kitchenball.png',
   title: 'Foodify Kitchenball',
   description: 'This project was createn as a capstone project, for JavaScript module at Microverse. It was a group project, and we were two members Hammad Siddique and Ibrahim Ahmat. Moreover, this project took a week to be createn from zero. We have used Meal-DB API for it',
@@ -44,7 +85,7 @@ const projectsList = [{
   sourceLink: 'https://github.com/HammadSiddique/Foodify-Kitchenball',
 },
 {
-  id: 2,
+  id: 4,
   image: './assets/leader-board.png',
   title: 'Leader Board webapp',
   description: 'I built this project as a solo project, as part of forth week of the second module in Microverse Academy.<br/>And we had to use LeaderBoard Api for it. Moreover, created a new game or ( api game) to store the data from the player. I used JavaScript, CSS, HTML, Webpack, and API for this project',
@@ -63,7 +104,7 @@ const projectsList = [{
   sourceLink: 'https://github.com/ibr5500/Leader-Board',
 },
 {
-  id: 3,
+  id: 5,
   image: './assets/ToDo-list.png',
   title: 'ToDo list project',
   description: 'I built this project as a solo project, as part of second week of the second module in Microverse Academy.<br/>And we had to use what we learned in it. Make the website responsive, design, webpack,and JavaScript concepts.',
@@ -81,7 +122,7 @@ const projectsList = [{
   sourceLink: 'https://github.com/ibr5500/To-Do-List',
 },
 {
-  id: 4,
+  id: 6,
   image: './assets/awesome-book.png',
   title: 'Awesome Book',
   description: 'This project was a remote contribution with ( Rwubakwanayo Olivier ), and we built a library system using Object Oriented Programming to add new books to the list you can remove a certain book from the list by clicking on the Remove button.',
@@ -99,7 +140,7 @@ const projectsList = [{
   sourceLink: 'https://github.com/RWUBAKWANAYO/Awesome-Books',
 },
 {
-  id: 5,
+  id: 7,
   image: './assets/capstone.png',
   title: 'Capstone project',
   description: 'I built this project as a solo project, as part of last week(5) of the first module in Microverse BootCamp or Academy.<br/>And we had to use some of what we learned in the past month. Make the website responsive, design, and some JavaScript concepts.',
