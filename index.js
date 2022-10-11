@@ -30,7 +30,7 @@ const projectsList = [
     id: 1,
     image: './assets/fly-digital.png',
     title: 'We Fly Digital',
-    description: 'We Fly Digital (full stack web): is a flight reservation app that allow the user to book a flight from and to anywhere. Built as a group.',
+    description: 'We Fly Digital (full stack web): is a flight reservation app that allows the user to book a flight from and to anywhere. Built as a group.',
     spans: [
       'Microverse',
       'Full Stack Dev',
@@ -39,7 +39,7 @@ const projectsList = [
     skills: [
       'Ruby on Rails',
       'React',
-      'Redux'
+      'Redux',
     ],
     liveLink: 'https://we-fly-digital.herokuapp.com/',
     sourceLink: 'https://github.com/ibr5500/flight_reservation-frontend',
@@ -48,7 +48,7 @@ const projectsList = [
     id: 2,
     image: './assets/egivy.png',
     title: 'EgIvy app',
-    description: 'A web application where you can manage your budget, you have a list of transactions associated with a category, so that you can see how much money you spent and on what, built as solo.',
+    description: 'A web application where you can manage your budget, you have a list of transactions associated with a category, so that you can see how much money you spent and on what, built as a solo.',
     spans: [
       'Microverse',
       'Full Stack Dev',
@@ -59,7 +59,7 @@ const projectsList = [
       'bootstrap',
       'RSpec',
       'Devise',
-      'heroku'
+      'heroku',
     ],
     liveLink: 'https://egivy.herokuapp.com/',
     sourceLink: 'https://github.com/ibr5500/Budget_App',
@@ -68,7 +68,7 @@ const projectsList = [
     id: 3,
     image: './assets/disney.png',
     title: 'Disney World',
-    description: 'Disney World: is a Metric data app about Disney characters, using disney API, displays their names, images , movies, and Tv Shows, built as solo.',
+    description: 'Disney World: is a Metric data app about Disney characters, using Disney API, displays their names, images, movies, and Tv Shows, built as a solo.',
     spans: [
       'Microverse',
       'Front End Dev',
@@ -79,85 +79,29 @@ const projectsList = [
       'CSS',
       'Jest',
       'Disney-API',
-      'Netlify'
+      'Netlify',
     ],
     liveLink: 'https://disney-world.netlify.app/',
     sourceLink: 'https://github.com/ibr5500/Disney-world',
   },
-{
-  id: 4,
-  image: './assets/foodify-kitchenball.png',
-  title: 'Foodify Kitchenball',
-  description: 'This project was createn as a capstone project, for JavaScript module at Microverse. It was a group project, and we were two members Hammad Siddique and Ibrahim Ahmat. Moreover, this project took a week to be createn from zero. We have used Meal-DB API for it',
-  spans: [
-    'Microverse',
-    'Front End Dev',
-    '2022',
-  ],
-  skills: [
-    'HTML',
-    'CSS',
-    'JavaScript',
-  ],
-  liveLink: 'https://hammadsiddique.github.io/Foodify-Kitchenball/index.html',
-  sourceLink: 'https://github.com/HammadSiddique/Foodify-Kitchenball',
-},
-{
-  id: 5,
-  image: './assets/leader-board.png',
-  title: 'Leader Board webapp',
-  description: 'I built this project as a solo project, as part of forth week of the second module in Microverse Academy.<br/>And we had to use LeaderBoard Api for it. Moreover, created a new game or ( api game) to store the data from the player. I used JavaScript, CSS, HTML, Webpack, and API for this project',
-  spans: [
-    'Microverse',
-    'Front End Dev',
-    '2022',
-  ],
-  skills: [
-    'JavaScript',
-    'CSS',
-    'HTML',
-    'API',
-  ],
-  liveLink: 'https://ibr5500.github.io/Leader-Board/',
-  sourceLink: 'https://github.com/ibr5500/Leader-Board',
-},
-{
-  id: 6,
-  image: './assets/ToDo-list.png',
-  title: 'ToDo list project',
-  description: 'I built this project as a solo project, as part of second week of the second module in Microverse Academy.<br/>And we had to use what we learned in it. Make the website responsive, design, webpack,and JavaScript concepts.',
-  spans: [
-    'Microverse',
-    'Front End Dev',
-    '2022',
-  ],
-  skills: [
-    'JavaScript',
-    'CSS',
-    'HTML',
-  ],
-  liveLink: 'https://ibr5500.github.io/To-Do-List/',
-  sourceLink: 'https://github.com/ibr5500/To-Do-List',
-},
-{
-  id: 7,
-  image: './assets/awesome-book.png',
-  title: 'Awesome Book',
-  description: 'This project was a remote contribution with ( Rwubakwanayo Olivier ), and we built a library system using Object Oriented Programming to add new books to the list you can remove a certain book from the list by clicking on the Remove button.',
-  spans: [
-    'Microverse',
-    'Front End Dev',
-    '2022',
-  ],
-  skills: [
-    'HTML',
-    'CSS',
-    'JavaScript',
-  ],
-  liveLink: 'https://github.com/RWUBAKWANAYO/Awesome-Books',
-  sourceLink: 'https://github.com/RWUBAKWANAYO/Awesome-Books',
-}
-];
+  {
+    id: 4,
+    image: './assets/foodify-kitchenball.png',
+    title: 'Foodify Kitchenball',
+    description: 'This project was created as a capstone project, for the JavaScript module at Microverse. It was a group project, and we were two members Hammad Siddique and Ibrahim Ahmat. Moreover, this project took a week to be created from zero. We have used Meal-DB API for it',
+    spans: [
+      'Microverse',
+      'Front End Dev',
+      '2022',
+    ],
+    skills: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+    ],
+    liveLink: 'https://hammadsiddique.github.io/Foodify-Kitchenball/index.html',
+    sourceLink: 'https://github.com/HammadSiddique/Foodify-Kitchenball',
+  }];
 
 const cards = () => {
   const card = projectsList.map((elem, index) => ` <div class="card flex">

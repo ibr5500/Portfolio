@@ -227,34 +227,6 @@ header {
   font-size: 17px;
 }
 
-.logo {
-  width: 78px;
-  height: 20px;
-  color: #6070ff;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  margin: 0 0 0 20px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  -webkit-animation: spin 2s linear;
-}
-
-.logo:hover {
-  transform: scale(1.2, 1.2);
-}
-
-@-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(360deg);
-  }
-}
-
 .topnav-right {
   float: right;
   width: auto;
